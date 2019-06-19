@@ -1,7 +1,7 @@
 ## asg
 Web Developer - Assignment - Apeejay Sayta Group
 
-##Steps to install and run this project in the linux-ubuntu.
+## Steps to install and run this project in the linux-ubuntu.
 
 1-clone the project in the root directory of server.
 git clone https://github.com/Subhash106/asg.git
@@ -21,7 +21,7 @@ DB_PASSWORD=root
 
 7- php artisan migrate:refresh --seed
 
-8- php artisan passport:install
+8- php artisan passport:install, laravel passport is being used for API authentication
 
 9- npm run dev
 
