@@ -131,7 +131,7 @@
                 type: "POST",
                 dataType: "JSON",
                 headers: {
-                    "Authorization": "Bearer " + "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjIwYmUxMmJlMzQ2MTM5NjI4M2FlMjVkYzFjZGVhYzhlODhiNzM5YmY5ODNiYjA1ZWU2OGQzOThmOWExOGNhMzNkNTlhMWIxNjc4MWExOWRkIn0.eyJhdWQiOiIxIiwianRpIjoiMjBiZTEyYmUzNDYxMzk2MjgzYWUyNWRjMWNkZWFjOGU4OGI3MzliZjk4M2JiMDVlZTY4ZDM5OGY5YTE4Y2EzM2Q1OWExYjE2NzgxYTE5ZGQiLCJpYXQiOjE1NjA5NjEyNDEsIm5iZiI6MTU2MDk2MTI0MSwiZXhwIjoxNTkyNTgzNjQwLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.bcsAzK6S7Gfr5jfbJjCQLLLvLQPQgYIR2ErR3kDRhiJ_j_Oww7FlDWcDHNEojvgEM1K9INGDjabMAQBaMJXWUrLZjLkkQBcnb5urzWniiy-NovnkFnCNCWC0f670i9zr7no4sfBQ0tys7cjwJakFqrgL4JFuX5jv76mWMYx4feVyE0uYsgTK3GkIp7ribrsbZBIe7oyUCczzmA50IginlFVmtfIBS7aEfLhglphccRJscqpYLXA6f1BSFGo54D725y09WXoFyO1HU8bBVozrDOiFJ1v_wkKKPSQ4wq7x3EYnK0Zzs0i20P48su9a-3gApuMdp2Att_X3gTMuO6HHyg99V_-UI23Y0BImkUiuKi0tjnTsRx2bxSrLUiCzZ7jMeCBRFuew2d4-lpyApYc0vGsztey5uQmhOYIZq0qExluirkyBrPegrBia78Yuk0R9XzUMTQXo3-oArOa-O8IgsThbsjNqTjYR4Myd8cupUqkQg-zt8ONmZBirf1R2YzQFiLsTM3FrUg3JUf96W0zBi-HNhOkljxuocsn98V1amxX7GoTPNGRRp2OYqWJEcSa8QTLlHTnJyDU1_O12qgXe6wWHypBh29D34AimX8MguvOKhBthB_HCAkl5TnbrQrW7U6pkp4QiOzr5HjhpqmFSzi7wCwmhYqD6pEHqf52jmsM"
+                    "Authorization": "Bearer " + "PASTE_THE_ACCESS_TOKEN_HERE"
                 },
                 data: {
                     category: category,
@@ -146,7 +146,7 @@
                 {   
                     console.log(errorThrown);
                 }
-            })
+            });
         });
 
         $(document).on('click', '.editProduct', function(){
