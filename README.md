@@ -1,6 +1,10 @@
 ## asg
 Web Developer - Assignment - Apeejay Sayta Group
 
+## Note:
+-This application is made in Laravel v5.5 cause of this is LTS.
+-Laravel Passport is being used for API authentication. 
+
 ## Steps to install and run this project in the linux-ubuntu.
 
 1-clone the project in the root directory of server.
@@ -15,6 +19,7 @@ git clone https://github.com/Subhash106/asg.git
 5- php artisan key:generate
 
 6- change following as per your development environment in the .env file.
+
 DB_DATABASE=asg
 DB_USERNAME=root
 DB_PASSWORD=root
@@ -31,7 +36,7 @@ DB_PASSWORD=root
 
 12- register and then login.
 
-13- create personal access token by navigating to the "Personal Access Tokens" menu and copy & paste it into the headers of the ajax request located at "asg/resources/views/products/index.blade.php" 
+13- create access token(Personal Access Token or client credentials or password client credentials or Authorization code or implicit access token)  by navigating to the "Access Tokens" menu and copy & paste it into the headers of the ajax request located at "asg/resources/views/products/index.blade.php" 
 
 			$.ajax({
                 url: url,
@@ -54,3 +59,5 @@ DB_PASSWORD=root
                     console.log(errorThrown);
                 }
             }); 
+
+14- Navigate to "Products" menue to list, add, and edit the products.  
